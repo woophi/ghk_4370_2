@@ -129,7 +129,7 @@ export const App = () => {
       <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile loading={loading} block view="primary" onClick={submit}>
+        <ButtonMobile loading={loading} view="primary" shape="rounded" onClick={submit}>
           На карте
         </ButtonMobile>
       </div>

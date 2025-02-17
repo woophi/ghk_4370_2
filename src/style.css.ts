@@ -6,6 +6,8 @@ const bottomBtn = style({
   width: '100%',
   padding: '12px',
   bottom: 0,
+  display: 'flex',
+  justifyContent: 'flex-end',
 });
 
 const container = style({
