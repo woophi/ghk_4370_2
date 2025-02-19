@@ -104,6 +104,14 @@ export const App = () => {
   return (
     <>
       <div className={appSt.container}>
+        <div className={appSt.rowTitle}>
+          <div>
+            <Typography.TitleResponsive tag="h1" view="medium" font="system" weight="medium">
+              Кэшбэк от партнёров
+            </Typography.TitleResponsive>
+            <Typography.Text view="primary-medium">Добавили новые категории для вас</Typography.Text>
+          </div>
+        </div>
         {data.map(item => (
           <div className={appSt.row} key={item.title} onClick={() => submitOnRow(item.analytics)}>
             <img width={48} height={48} src={item.img} />
